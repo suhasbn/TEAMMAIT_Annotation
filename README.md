@@ -32,6 +32,9 @@ The Python code is `annotation_code.py` file. I have defined a custom Prodigy re
 
 Make sure the `annotation_code.py` file is in the same directory as the data directory.
 
+## Data
+I have not included the audio because it contains PII data.
+
 ## Running the Code
 
 To run the code, open a terminal and navigate to the directory containing the `annotation_code.py` file.
