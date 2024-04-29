@@ -2,14 +2,14 @@
 
 ## Installation
 
-To install Prodigy, you need to have Python 3.9 or later installed on your system. You can install Prodigy using pip by running the following command:
+Python 3.9 or later is needed. You can install Prodigy using pip:
 `pip install prodigy -f https://4D57-240B-BE2C-4802@download.prodi.gy`
 
 I have created a virtual environemnt called `prodigy_env` with the following libraries that I have listed in `requirements.txt`.
 
 ## Directory Structure
 
-To use the audio annotation code, ensure that your directory structure is set up as follows:
+To use the audio annotation code, the directory structure is set up as follows:
 
 `data_directory/
 ├── audio1.MP3
@@ -17,18 +17,18 @@ To use the audio annotation code, ensure that your directory structure is set up
 ├── audio2.MP3
 ├── audio2.MP3.srt`
 
-- The `data_directory` should contain the audio files (`.MP3`) and their corresponding transcript files (`.srt`).
+- The `data_directory` has the audio files (`.MP3`) and their corresponding transcript files (`.srt`).
 - The transcript file should have the same name as the audio file, with the additional `.srt` extension.
 
 ## Python Code
 
-The Python code for audio annotation is provided in the `annotation_code.py` file. This code defines a custom Prodigy recipe that allows annotators to listen to audio files, follow along with the transcript, and assign labels to specific segments of the audio.
+The Python code is `annotation_code.py` file. I have defined a custom Prodigy recipe that allows annotators to listen to audio files, follow along with the transcript, and assign labels to specific segments of the audio.
 
 Make sure the `annotation_code.py` file is in the same directory as the data directory.
 
 ## Running the Code
 
-To run the audio annotation code, open a terminal or command prompt and navigate to the directory containing the `annotation_code.py` file.
+To run the code, open a terminal and navigate to the directory containing the `annotation_code.py` file.
 
 Run the following command:
 
