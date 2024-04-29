@@ -10,12 +10,18 @@ I have created a virtual environemnt called `prodigy_env` with the following lib
 ## Directory Structure
 
 To use the audio annotation code, the directory structure is set up as follows:
-
-`data_directory/
+<pre>
+<code>
+data_directory/
 ├── audio1.MP3
 ├── audio1.MP3.srt
 ├── audio2.MP3
-├── audio2.MP3.srt`
+└── audio2.MP3.srt
+    .
+    .
+    .
+</code>
+</pre>
 
 - The `data_directory` has the audio files (`.MP3`) and their corresponding transcript files (`.srt`).
 - The transcript file should have the same name as the audio file, with the additional `.srt` extension.
