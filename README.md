@@ -42,5 +42,11 @@ To run the code, open a terminal and navigate to the directory containing the `a
 Run the following command:
 
 `prodigy -F annotation_code.py audio-annotation TEAMMAIT /path/to/your/data/directory/`
+Updated code: 
+`prodigy audio_annotation /path/to/your/data/directory/ -F updated_code.py`
+
+Also, to start a server:
+`python -m http.server --directory /path/to/your/data/directory/ 8000`
+where, 8000 is the port number
 
 This command will start the Prodigy annotation server, and you can access the annotation interface by opening a web browser and navigating to `http://localhost:8080`.
