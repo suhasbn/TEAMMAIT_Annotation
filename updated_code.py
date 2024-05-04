@@ -43,7 +43,3 @@ def audio_annotation(directory: str):
             ]
         }
     }
-
-# Save the code as `audio_annotation_recipe.py`
-# Usage:
-# prodigy audio_annotation /path/to/audio_files -F audio_annotation_recipe.py
