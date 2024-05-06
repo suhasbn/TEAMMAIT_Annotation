@@ -1,5 +1,7 @@
 # TEAMMAIT_Annotation
 
+<img width="1512" alt="image" src="https://github.com/suhasbn/TEAMMAIT_Annotation/assets/51376855/81caa8ef-8505-4140-b48b-3899759e7dc1">
+
 ## Installation
 
 Python 3.9 or later is needed. You can install Prodigy using pip:
