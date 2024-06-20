@@ -1,0 +1,26 @@
+1. Connect via VPN to Emory using Big-IP.
+2. Start the instance on EC2.
+3. Create a requirements.txt file and scp it to the instance 
+
+pip freeze > requirements.txt
+
+scp -i "teammait-key-pair.pem" requirements.txt ec2-user@10.65.201.85:/home/ec2-user/
+
+4. Login to EC2 instance: ssh -i "teammait-key-pair.pem" ec2-user@10.65.201.85
+
+5. RUn the following commands to install the packages on the EC2 instance
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+bash Miniconda3-latest-Linux-x86_64.sh
+
+source ~/.bashrc
+
+conda create --name prodigy_env python=3.9.19
+
+conda activate prodigy_env
+
+pip install -r requirements.txt
+
+pip install prodigy -f https://4D57-240B-BE2C-4802@download.prodi.gy
+
