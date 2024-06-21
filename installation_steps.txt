@@ -27,7 +27,7 @@ pip install prodigy -f https://4D57-240B-BE2C-4802@download.prodi.gy
 
 ###
 
-Code running steps:
+Running the code on EC2:
 1. python serve_media.py
 2. ssh -i 'teammait-key-pair.pem' -L 8080:localhost:8080 ec2-user@10.65.201.85
 3. prodigy audio_annotation -F updated_code.py
