@@ -14,7 +14,7 @@ Prodigy Audio Annotation Setup and Usage Guide
 * Select the AMI and click "Launch instance from AMI".
 * In the instance configuration page:
   * Choose an appropriate instance type (e.g., t2.micro for testing, or as recommended).
-  * Under "Advanced details", find "IAM instance profile" and select "TEAMMAITEC2accessingS3".
+  * Under "Advanced details", find "IAM instance profile" and select "<span style="color: #3357FF;">TEAMMAITEC2accessingS3</span>".
 * Configure the security group with the following inbound rules:
   * Type: SSH, Protocol: TCP, Port Range: 22, Source: Your IP
   * Type: Custom TCP, Protocol: TCP, Port Range: 8090, Source: Your IP
@@ -75,5 +75,5 @@ Prodigy Audio Annotation Setup and Usage Guide
 
 Notes:
 - Ensure you're using a compatible web browser. Chrome and Firefox are configured to work with the audio files.
-- If you encounter any issues, please contact the system administrator.
+- If you encounter any issues, please contact me at [bnsuhas@psu.edu](mailto:bnsuhas@psu.edu).
 - Remember to stop your EC2 instance after each session to avoid unnecessary charges.
