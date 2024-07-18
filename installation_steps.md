@@ -50,14 +50,14 @@ Prodigy Audio Annotation Setup and Usage Guide
 * Wait for the script to complete. It will output a URL (http://your-ip-address:8090).
 * Copy and paste this URL in your web browser to access the Prodigy interface.
 
-### 5. Annotating (Needs to be done whenever we need to annotate):
+### 5. Annotating (Done during every session):
 * In the Prodigy interface, you'll see an audio player, transcription, and annotation options.
 * Listen to the audio, review the transcription, and add your annotations.
 * Use the provided labels to categorize the audio content.
 * Submit your annotation and move to the next audio file.
 * Make sure you're saving your progress regularly by clicking the save button on top left. You should get a notification box on the bottom right confirming that your annotations have been saved.
 
-### 6. Ending the Session (Needs to be done whenever we need to annotate):
+### 6. Ending the Session (At the end of every annotation session):
 * When finished annotating, make sure you save your progress one last time, before closing the Prodigy browser tab.
 * In your terminal (still connected via TKI), run:
       ```
