@@ -13,7 +13,7 @@ Prodigy Audio Annotation Setup and Usage Guide
 * Select the AMI and click `Launch instance from AMI`.
 * In the instance configuration page:
   * Choose an appropriate instance type (e.g., t2.micro for testing, or as recommended).
-  * Under `Advanced details`, find `IAM instance profile` and select `<span style="color: #3357FF;">TEAMMAITEC2accessingS3</span>`.
+  * Under `Advanced details`, find `IAM instance profile` and select `TEAMMAITEC2accessingS3`.
 * Configure the security group with the following inbound rules:
   * `launch-wizard-1`
 * Review and launch the instance. Select an existing key pair or create a new one.
@@ -34,6 +34,9 @@ Prodigy Audio Annotation Setup and Usage Guide
       # ... (rest of the script)
       ```
 * Ensure `ec2_script.sh` is also in the same `bin` folder.
+
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/0e34f6c8-4a8f-4a35-a13b-c1f296e75b6b)
+
 
 ### 4. Starting the Annotation Session (Needs to be done whenever we need to annotate):
 * Open a terminal and navigate to your TKI 'bin' folder.
