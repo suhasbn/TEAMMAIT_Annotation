@@ -35,8 +35,6 @@ Prodigy Audio Annotation Setup and Usage Guide
       ```
 * Ensure `ec2_script.sh` is also in the same `bin` folder.
 
-![Untitled Diagram drawio](https://github.com/user-attachments/assets/0e34f6c8-4a8f-4a35-a13b-c1f296e75b6b)
-
 
 ### 4. Starting the Annotation Session (Needs to be done whenever we need to annotate):
 * Open a terminal and navigate to your TKI 'bin' folder.
@@ -50,7 +48,7 @@ Prodigy Audio Annotation Setup and Usage Guide
       ./start_prodigy_service.sh
       ```
 * Wait for the script to complete. It will output a URL (http://your-ip-address:8090).
-* Open this URL in your web browser to access the Prodigy interface.
+* Copy and paste this URL in your web browser to access the Prodigy interface.
 
 ### 5. Annotating (Needs to be done whenever we need to annotate):
 * In the Prodigy interface, you'll see an audio player, transcription, and annotation options.
