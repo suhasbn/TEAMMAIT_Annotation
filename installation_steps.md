@@ -63,7 +63,9 @@ Prodigy Audio Annotation Setup and Usage Guide
   and follow the instructions (as as entering your `Emory username and password`, as well as selecting `us-east-1`. 
 * Once connected, start the Prodigy service:
       ```
-      ./start_prodigy_service.sh
+      ./start_prodigy_service.sh (On UNIX)
+      OR
+      bash start_prodigy_service.sh (On WSL)
       ```
 * Wait for the script to complete. It will output a URL (http://your-ip-address:8090).
 * Copy and paste this URL in your web browser to access the Prodigy interface.
@@ -86,7 +88,9 @@ Prodigy Audio Annotation Setup and Usage Guide
 ### 7. Stopping the EC2 Instance (Needs to be done whenever we need to annotate):
 * Run the stop script:
       ```
-      ./stop_prodigy_service.sh
+      ./stop_prodigy_service.sh (On UNIX)
+      OR
+      bash stop_prodigy_service.sh (On WSL)
       ```
 * Wait for confirmation that the EC2 instance has stopped.
 
