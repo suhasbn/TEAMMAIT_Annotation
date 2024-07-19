@@ -41,7 +41,7 @@ Prodigy Audio Annotation Setup and Usage Guide
 * In the 'bin' folder of your TKI installation, create or edit `start_prodigy_service.sh`.
 * Update `start_prodigy_service.sh` with your EC2 instance details:
       
-      ```bash
+      
       #!/bin/bash
       EC2_INSTANCE_ID="your-instance-id"
       EC2_USER="ec2-user"
@@ -49,7 +49,9 @@ Prodigy Audio Annotation Setup and Usage Guide
       EC2_KEY="/path/to/your/key.pem"
       REGION="us-east-1"
       # ... (rest of the script)
-      ```
+
+      
+  
 * Ensure `ec2_script.sh` is also in the same `bin` folder.
 
 
@@ -63,11 +65,11 @@ Prodigy Audio Annotation Setup and Usage Guide
   and follow the instructions (as as entering your `Emory username and password`, as well as selecting `us-east-1`. 
 * Once connected, start the Prodigy service:
 
-      ```
+      
       ./start_prodigy_service.sh (On UNIX)
       OR
       bash start_prodigy_service.sh (On WSL)
-      ```
+      
 * Wait for the script to complete. It will output a URL (http://your-ip-address:8090).
 * Copy and paste this URL in your web browser to access the Prodigy interface.
 
@@ -89,11 +91,11 @@ Prodigy Audio Annotation Setup and Usage Guide
 ### 7. Stopping the EC2 Instance (Needs to be done whenever we need to annotate):
 * Run the stop script:
 
-      ```
+      
       ./stop_prodigy_service.sh (On UNIX)
       OR
       bash stop_prodigy_service.sh (On WSL)
-      ```
+     
 * Wait for confirmation that the EC2 instance has stopped.
 
 # Notes:
