@@ -1,6 +1,6 @@
 Prodigy Audio Annotation Setup and Usage Guide
 
-### 0. Windows Setup (for Windows users only - Needs to be done only once):
+### 0. Windows Setup (for Windows users only):
 ## Install Windows Subsystem for Linux (WSL):
 * Open PowerShell as Administrator:
   * Click on the Start menu or press the Windows key.
