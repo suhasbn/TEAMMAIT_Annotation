@@ -54,6 +54,7 @@ Prodigy Audio Annotation Setup and Usage Guide
 
 
 ### 4. Starting the Annotation Session (Needs to be done whenever we need to annotate):
+* Connect to the Emory VPN (Big-IP).
 * Open a terminal and navigate to your TKI 'bin' folder.
 * Run the TKI to establish a secure connection:
       ```
