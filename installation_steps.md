@@ -1,5 +1,22 @@
 Prodigy Audio Annotation Setup and Usage Guide
 
+### 0. Windows Setup (for Windows users only):
+## Install Windows Subsystem for Linux (WSL):
+* Open PowerShell as Administrator:
+  * Click on the Start menu or press the Windows key.
+  * Type "PowerShell" (without quotes).
+  * In the search results, you should see "Windows PowerShell" or "PowerShell".
+  * Right-click on "Windows PowerShell" or "PowerShell".
+  * In the menu that appears, click on "Run as administrator".
+  * If a User Account Control prompt appears asking "Do you want to allow this app to make changes to your device?", click "Yes".
+* In the PowerShell window that opens, type or copy-paste the following command and press Enter: `wsl --install`
+* Wait for the installation to complete. You may see various messages about the installation progress.
+* Once it's done, you'll need to restart your computer. Save any open work, close all programs, and restart your computer.
+* After your computer restarts, WSL will finish the installation. A new window will open automatically, asking you to create a username and password for your Linux distribution. Follow the prompts to do so.
+* You can now use WSL by typing "wsl" in the Start menu and pressing Enter.
+
+`Windows users: Please refer to the notes at the bottom.`
+
 ### 1. TKI (Tunnel Keeper Installation) Setup (Needs to be done only once):
 * Visit: https://emory.service-now.com/sp?sys_kb_id=fe1f88c61bc8f3cc8508437ead4bcbf9&id=kb_article_view&sysparm_rank=1&sysparm_tsqueryId=5bba49f01b20425062e42fc42a4bcb92
 * Follow the instructions to install TKI on your local machine.
@@ -72,6 +89,11 @@ Prodigy Audio Annotation Setup and Usage Guide
       ```
 * Wait for confirmation that the EC2 instance has stopped.
 
-Notes:
+# Notes:
+- When the guide refers to opening a terminal, use your WSL terminal (By typing "wsl" in the Start menu).
+- File paths in WSL use forward slashes (/), while Windows typically uses backslashes (\).
+- If using WSL, your `Windows C:` drive is typically accessible at `/mnt/c/`.
+- Make sure to adjust any file paths in the scripts to match your Windows environment.
+- When running scripts in WSL, you may need to use bash before the script name, e.g., `bash start_prodigy_service.sh`.
 - If you encounter any issues, please contact me at [bnsuhas@psu.edu](mailto:bnsuhas@psu.edu).
 - Remember to stop your EC2 instance after each session to avoid unnecessary charges.
