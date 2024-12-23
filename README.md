@@ -5,7 +5,7 @@
 ## Installation
 
 Python 3.9 or later is needed. You can install Prodigy using pip:
-`pip install prodigy -f<your-prodigy-code>`
+`pip install prodigy -f <your-prodigy-code>`
 
 I have created a virtual environemnt called `prodigy_env` with the following libraries that I have listed in `requirements.txt`.
 
